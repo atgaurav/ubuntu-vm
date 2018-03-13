@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus2"
+        },
+        "virtualMachineName": {
+            "value": "test-vm-meetup"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "gausha"
+        },
+        "virtualNetworkName": {
+            "value": "gausha_r-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "test-vm-meetup728"
+        },
+        "networkSecurityGroupName": {
+            "value": "test-vm-meetup-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "diagshifsnau6fzqbe"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/09d29343-ed9a-4ad8-baa3-25e147d2d48a/resourceGroups/gausha_test/providers/Microsoft.Storage/storageAccounts/diagshifsnau6fzqbe"
+        },
+        "addressPrefix": {
+            "value": "172.16.20.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "172.16.20.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "test-vm-meetup-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
